@@ -3,6 +3,10 @@
 [Resource - MDN Mongo Info](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose#Connecting_to_MongoDB) |
 [Resource - Mongoose Methods](https://mongoosejs.com/docs/api/model.html)
 
+### You shouldn't have to `res.send()` methods sending in one endpoint. You should have comments. The first param for the create method should be `req.body`. You're missing two of the four read methods. Your post request should be `findOneAndUpdate()`. I would highly encourage looking back at the answer and PLEASE come to study session.
+
+### Score : 2/5
+
 ### Schema
 Define a Resident Schema with properties :
 - first name (string)
